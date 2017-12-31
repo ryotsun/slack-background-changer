@@ -1,0 +1,216 @@
+#messages_container .monkey_scroll_handle_inner {
+    background: #999999 !important;
+}
+
+#messages_container .monkey_scroll_bar {
+    background: #ffffff !important;
+    z-index: 100;
+}
+
+.special_formatting_quote .quote_bar, .attachment_bar {
+    background: #999999 !important;
+}
+
+#change-skin {
+    font-size: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: block;
+    z-index: 500;
+}
+
+#imgs-list {
+    width: 520px;
+    height: 220px;
+    overflow-y: auto;
+    margin: 0 auto 20px auto;
+}
+
+#imgs-list .bgimage {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    border: 1px solid #cccccc;
+    margin: 2px;
+}
+
+#imgs-list img {
+    max-width: 98px;
+    max-height: 98px;
+    cursor: pointer;
+}
+
+#imgs-list img:hover {
+  opacity: 0.6;
+}
+
+#skin-ext-setting {
+    text-align: center;
+    border: 1px solid #cccccc;
+    display: none;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+#close-skin-ext-page {
+    cursor: pointer;
+    line-height: 40px;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.8);
+    border: 1px solid #dddddd;
+    box-sizing: content-box;
+}
+
+#close-skin-ext-page:hover {
+    background-color: rgba(238, 238, 238, 1);
+    border: 1px solid #cccccc;
+    box-sizing: content-box;
+}
+
+#skin-ext-setting .title {
+    background-color: #cccccc;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+}
+
+#col_messages .row-fluid, #footer {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#col_messages {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+#footer {
+    background-image: none !important;
+}
+
+#msgs_div ts-message:hover {
+    background-color: rgba(238, 238, 238, 0.8);
+}
+
+#div-none {
+    line-height: 100px;
+    cursor: pointer;
+}
+p.del-img {
+    position: absolute;
+    z-index: 1002;
+    top: 2px;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    color: #ff0000;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    box-sizing: content-box;
+}
+
+p.del-img:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+#form-bg-images {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(238, 238, 238, 0.6);
+}
+
+#imgs-list div.selected {
+    display: none;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    z-index: 1001;
+    top: -1px;
+    right: -1px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #228b22;
+    line-height: 96px;
+    border: 1px solid #228b22;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#opacity-bar-area {
+    position: relative;
+    margin: 20px auto;
+}
+
+#opacity-bar-area span {
+    margin: 0 5px;
+}
+
+#opacity-bar-area .saved {
+    position: absolute;
+    top: 2px;
+    right: 80px;
+    display: none;
+    color: #ff0000;
+    font-size: 10px;
+}
+
+#auto-change-area {
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+}
+
+#auto-change-area .saved {
+    display: none;
+    position: absolute;
+    right: 120px;
+    top: 6px;
+    color: #ff0000;
+    font-size: 10px;
+}
+
+#auto-change-area label {
+    display: inline;
+    font-size: 12px;
+}
+
+#messages_container ts-message .edited, #messages_container ts-message .star,
+#messages_container ts-message .timestamp, #messages_container ts-message.automated .message_body,
+.inline_attachment .attachment_footer a, .inline_attachment .attachment_ts a,
+#messages_container ts-message .meta.msg_inline_file_preview_toggler a,
+#messages_container ts-message .comment:before {
+    color: #666666 !important;
+}
+
+#messages_container ts-message .star.starred {
+    color: #fc0 !important;
+    text-shadow: 0px 0px 1px #000 !important;
+}
+
+#special_formatting_text, #typing_text, div#notification_text {
+    color: #333333 !important;
+}
+
+#col_flex {
+    top: 61px !important;
+}
